@@ -68,15 +68,16 @@
   - 전체 이벤트 날짜순 조회
 
 ## Screenshots
+<img width="234" height="446" alt="image" src="https://github.com/user-attachments/assets/3d8cc31f-4abd-4622-9d33-db923dcf58dd" />
 
-<img width="382" height="734" alt="image" src="https://github.com/user-attachments/assets/d89d02e6-3591-4514-b3eb-1775c5871581" />
-<img width="382" height="734" alt="image" src="https://github.com/user-attachments/assets/ad6fe31b-c98a-40d5-829b-89e6c92c84ca" />
-<img width="376" height="731" alt="image" src="https://github.com/user-attachments/assets/ae2d9124-9955-45e9-bf73-1a4068e445ed" />
-<img width="352" height="723" alt="image" src="https://github.com/user-attachments/assets/e8f01a02-4517-4632-9143-35f4eacf065e" />
-<img width="359" height="717" alt="image" src="https://github.com/user-attachments/assets/27a076a7-0837-475f-9f4f-6d06dddfd026" />
-<img width="357" height="719" alt="image" src="https://github.com/user-attachments/assets/1da265f9-2b92-4d85-aaab-0a3cac0e159c" />
-<img width="359" height="711" alt="image" src="https://github.com/user-attachments/assets/d8e00b99-432f-4766-ae83-d7e48209d778" />
-<img width="352" height="715" alt="image" src="https://github.com/user-attachments/assets/1b67fd08-4151-4792-9ac7-8c80fa140cc6" />
+<img width="234" height="446" alt="image" src="https://github.com/user-attachments/assets/d89d02e6-3591-4514-b3eb-1775c5871581" />
+<img width="234" height="446" alt="image" src="https://github.com/user-attachments/assets/ad6fe31b-c98a-40d5-829b-89e6c92c84ca" />
+<img width="234" height="446" alt="image" src="https://github.com/user-attachments/assets/ae2d9124-9955-45e9-bf73-1a4068e445ed" />
+<img width="234" height="446" alt="image" src="https://github.com/user-attachments/assets/e8f01a02-4517-4632-9143-35f4eacf065e" />
+<img width="234" height="446" alt="image" src="https://github.com/user-attachments/assets/27a076a7-0837-475f-9f4f-6d06dddfd026" />
+<img width="234" height="446" alt="image" src="https://github.com/user-attachments/assets/1da265f9-2b92-4d85-aaab-0a3cac0e159c" />
+<img width="234" height="446" alt="image" src="https://github.com/user-attachments/assets/d8e00b99-432f-4766-ae83-d7e48209d778" />
+<img width="234" height="446" alt="image" src="https://github.com/user-attachments/assets/1b67fd08-4151-4792-9ac7-8c80fa140cc6" />
 
 
 ## How to Run
