@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg">
+
+    <!-- 스크롤 뷰 추가 -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- 제목 -->
+            <TextView
+                android:id="@+id/scheduleTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="일정"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="16dp" />
+
+            <!-- 캘린더 뷰 -->
+            <CalendarView
+                android:id="@+id/scheduleCalendar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <!-- 이벤트 추가 버튼 -->
+            <Button
+                android:id="@+id/addEventButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_gravity="center_horizontal"
+                android:text="Add Event" />
+
+            <!-- 이벤트 리스트 타이틀 -->
+            <TextView
+                android:id="@+id/eventListTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="이벤트 리스트"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp" />
+
+            <!-- 이벤트 리스트뷰 -->
+            <ListView
+                android:id="@+id/eventListView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="@android:color/darker_gray"
+                android:dividerHeight="1dp"
+                android:layout_marginTop="8dp" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

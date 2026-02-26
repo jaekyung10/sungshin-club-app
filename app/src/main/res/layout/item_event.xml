@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <!-- 이벤트 내용 표시 -->
+    <TextView
+        android:id="@+id/textEvent"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="16sp"
+        android:text="Event"
+        android:padding="8dp" />
+
+    <!-- 수정 버튼 -->
+    <Button
+        android:id="@+id/btnEditEvent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit" />
+
+    <!-- 삭제 버튼 -->
+    <Button
+        android:id="@+id/btnDeleteEvent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete" />
+</LinearLayout>

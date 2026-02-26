@@ -1,0 +1,130 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg">
+
+    <!-- 스크롤 뷰 추가 -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- 학교 로고 -->
+            <ImageView
+                android:id="@+id/schoolLogo"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="13dp"
+                android:contentDescription="학교 로고"
+                android:src="@drawable/ic_sswu_logo" />
+
+            <!-- 이름 -->
+            <TextView
+                android:id="@+id/studentInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="OOO"
+                android:textStyle="bold"
+                android:textColor="@color/mainColor"
+                android:textSize="30dp" />
+
+            <!-- 설명 -->
+            <TextView
+                android:id="@+id/description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="님이 속한 성신여자대학교 동아리는 아래와 같습니다."
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+            <!-- 동아리 리스트 -->
+            <LinearLayout
+                android:id="@+id/clubListLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="8dp">
+
+                <ImageView
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:layout_marginTop="5dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/img" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:paddingStart="8dp"
+                    android:paddingEnd="8dp">
+
+                    <TextView
+                        android:id="@+id/homeClubName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="동아리 이름"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/homeClubInfo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="동아리 관리자가 등록한 동아리 소개"
+                        android:textColor="@android:color/black"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/clubButton"
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/white"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:background="@drawable/ic_go_club"
+                    android:gravity="center"
+                    android:text="동아리\n바로가기"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <!-- 캘린더 -->
+            <CalendarView
+                android:id="@+id/scheduleCalendar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp" />
+
+            <!-- 예정된 이벤트 타이틀 -->
+            <TextView
+                android:id="@+id/upcomingEventsTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="예정된 이벤트"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- 예정된 이벤트 RecyclerView -->
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/upcomingEventsRecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:padding="8dp" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
