@@ -68,7 +68,8 @@
   - 전체 이벤트 날짜순 조회
 
 ## Screenshots
-<img width="1919" height="961" alt="image" src="https://github.com/user-attachments/assets/534dac65-e158-4981-a781-609eaf21900e" />
+
+<img width="234" height="446" alt="image" src="https://github.com/user-attachments/assets/d89d02e6-3591-4514-b3eb-1775c5871581" />
 
 <img width="234" height="446" alt="image" src="https://github.com/user-attachments/assets/01ae61ee-2876-4b70-8e32-7fb4ddd4a38f" />
 <img width="382" height="734" alt="image" src="https://github.com/user-attachments/assets/ad6fe31b-c98a-40d5-829b-89e6c92c84ca" />
